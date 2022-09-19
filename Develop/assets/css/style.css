@@ -14,7 +14,7 @@ body {
     
     padding: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: blue;
+    background-color: cornflowerblue;
     color: #ffffff;
 }
 
@@ -28,7 +28,7 @@ body {
 /*changed color*/
 .header h1 .seo {
     text-shadow: 5px black;
-    color: cornflowerblue;
+    color: orange;
 }
 
 /*changed font */
@@ -51,7 +51,8 @@ body {
 }
 
 /* added border, box shadow. changed background color and font*/
-a {
+a:hover {
+    background-color: orange;
     border: 5px solid rgb(49, 48, 48);
     box-shadow: 5px 5px 5px gray;
     width: 15px;
@@ -63,10 +64,9 @@ a {
     font-size: medium ;
     cursor: pointer;
     background-color: gray;
-    
-
 
 }
+
 
 p {
     font-size: 16px;
@@ -133,18 +133,21 @@ p {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/* underline text*/
 .benefit-lead h3 {
+    text-decoration: underline;
     margin-bottom: 10px;
     text-align: center;
 }
-
+/* underline text*/
 .benefit-brand h3 {
+    text-decoration: underline;
     margin-bottom: 10px;
     text-align: center;
 }
-
+/* underline text*/
 .benefit-cost h3 {
+    text-decoration: underline;
     margin-bottom: 10px;
     text-align: center;
 }
